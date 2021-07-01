@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.searchbox-css {
+  height: 10px;
+}
+
+.justify-description-css {
+  text-align: justify;
+  white-space: pre-line;
+}
+
+.edit-button-css {
+  position: relative;
+  top: -30px;
+  float: right;
+  color: grey;
+  cursor: pointer;
+  transition: transform .2s; /* Animation */
+}
+
+.edit-button-css:hover {
+  color: #6699ff;
+  transform: scale(1.3)
+}
+
+.delete-button-css {
+  position: relative;
+  top: -30px;
+  float: right;
+  color: grey;
+  cursor: pointer;
+  transition: transform .2s; /* Animation */
+}
+
+.delete-button-css:hover {
+  color: red;
+  transform: scale(1.3)
+}
+
+.saved-cards-css {
+  color: black;
+}
+
+.saved-cards-css:hover {
+  cursor: pointer;
+  background-color: #e6ffff;
+}
+
+.button-focus-css:focus {
+  box-shadow: none !important;
+}
+
+.footer-css {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  height: 40px;
+  background: grey;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
