@@ -125,7 +125,7 @@ Here, the user can view all their card details. The Page also provides updation 
 
 
 ### Card_Update_Page
-Here, the user can update their address.
+Here, the user can update their card.
 <p align="center">
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20card%20update%20page.png?raw=true" width="50%">
 </p>
@@ -150,7 +150,7 @@ Here, the user can see their details like their Name, Email and Admin Priviledge
 ### Update_User_Account_Page
 Here, the user can update their account details like username, email and can also reset their password.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/update_user_account_details_page_article_app.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20account%20update%20page.png?raw=true" width="90%">
 </p>
 
 ### Delete_User_Account_Page
