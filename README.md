@@ -26,6 +26,7 @@ Checkout the site in action here <a href="https://condescending-goldstine-79a4ed
   * [User_Account_Page](#User_Account_Page)
   * [Update_User_Account_Page](#Update_User_Account_Page)
   * [Delete_User_Account_Page](#Delete_User_Account_Page)
+  * [Other_Functionalities](#Other_Functionalities)
 - [Installation](#Installation)
   * [Backend](#backend)
   * [Frontend](#frontend)
@@ -158,6 +159,11 @@ Here, the user can Delete their account (requires password confirmation)
 <p align="center">
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20delete%20account%20page.png?raw=true" width="90%">
 </p>
+
+### Other_Functionalities
+- Used JSON web tokens to achieve the authentication checks in the website.
+- Strict Security Checking behind the scenes during the Card Creation and Payment Process.
+- JSON Token gets checked for every single request made on the website (except products list and product details page)
 
 ## Installation
 after downloading/cloning the repository code follow below steps:
