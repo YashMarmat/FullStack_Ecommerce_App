@@ -16,6 +16,8 @@ Checkout the site in action here <a href="https://condescending-goldstine-79a4ed
   * [Checkout_Page](#Checkout_Page)
   * [Payment_Confirmation_Page](#Payment_Confirmation_Page)
   * [Payment_successfull_Page](#Payment_successfull_Page)
+  * [Orders_Page_For_User](#Orders_Page_For_User)
+  * [Orders_Page_For_Admin](#Orders_Page_For_Admin)
   * [Address_Settings_Page](#Address_Settings_Page)
   * [Address_Create_Page](#Address_Create_Page)
   * [Address_Edit_Page](#Address_Edit_Page)
