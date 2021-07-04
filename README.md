@@ -161,6 +161,7 @@ Here, the user can Delete their account (requires password confirmation)
 
 ## Installation
 after downloading/cloning the repository code follow below steps:
+* (NOTE: your need to mention your own stripe secret api key and publishable key in django to run the project)
 
 ### Backend
 * (for both linux and windows)
