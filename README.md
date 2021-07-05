@@ -1,7 +1,7 @@
 # FullStack_Ecommerce_App
 A FullStack Ecommerce App built with Django and React. 
 <p id ="top" align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="100%">
 </p>
 
 Checkout the site in action here <a href="https://condescending-goldstine-79a4ed.netlify.app/">Deployed App</a>
@@ -42,25 +42,25 @@ The website also provides the flexibility to create a new stripe card if they do
 ### Products_List_Page
 This page displays all the available products on the website.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="100%">
 </p>
 
 ### Product_Details_Page
 This page displays the details of the Product which user has selected from the products list page. Here, the user can see all the info of the Product such as product name, description, in stock or out of stock and pay with stripe button. For Admins, the website provides two more functionalities such as Updating the product and secondly deleting the product.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20details%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20details%20page.png?raw=true" width="100%">
 </p>
 
 ### Product_Edit_Page
 Only admins can visit this page, the page handles the editing of the Product in terms of image, name , description, price and in stock status. 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20edit%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20product%20edit%20page.png?raw=true" width="100%">
 </p>
 
 ### Add_Product_Page
 Only admins can visit this page, the pages handles the creation of product (requires product name,  image, description, price and in stock status.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20add%20product%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20add%20product%20page.png?raw=true" width="100%">
 </p>
 
 ### Checkout_Page
@@ -68,7 +68,7 @@ This page displays the info of the product which user has selected for the purch
 option. The user can also save their card for future payments. The user can also select or edit their address from the page.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20checkout%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20checkout%20page.png?raw=true" width="100%">
 </p>
 
 ### Payment_Confirmation_Page
@@ -76,7 +76,7 @@ The page displays total amount info, the address selected by the user for delive
 address from the same page if something wents wrong.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20confirmation%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20confirmation%20page.png?raw=true" width="100%">
 </p>
 
 ### Payment_Successfull_Page
@@ -84,14 +84,14 @@ The Page displays the confirmation of the product purchase. Also, provides info 
 also provided to see the order details.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20successfull%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20payment%20successfull%20page.png?raw=true" width="100%">
 </p>
 
 ### Orders_Page_For_User
 The page displays the list of all the orders made by user, with the details like their name, card number used, date of purchase, address etc.
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20normal%20user.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20normal%20user.png?raw=true" width="100%">
 </p>
 
 ### Orders_Page_For_Admin
@@ -99,13 +99,13 @@ For admin user the page display the list of all users order information. The adm
 provided to locate the orders with more flexibility (can search the orders by customer name, address and product name)
 
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20admin.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20orders%20page%20for%20admin.png?raw=true" width="100%">
 </p>
 
 ### Address_Settings_Page
 Here, the user can view their addresses, the page also provides creation of new address and can edit or delete it as well.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20settings%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20address%20settings%20page.png?raw=true" width="100%">
 </p>
 
 ### Address_Create_Page
@@ -123,7 +123,7 @@ Here, the user can edit their address.
 ### Card_Settings_Page
 Here, the user can view all their card details. The Page also provides updation and deletion of Card.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20card%20settings%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20card%20settings%20page.png?raw=true" width="100%">
 </p>
 
 
@@ -136,30 +136,30 @@ Here, the user can update their card.
 ### Login_Page
 Requires an Account on the Website
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20in%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20in%20page.png?raw=true" width="100%">
 </p>
 
 ### Register_Page
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20up%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20sign%20up%20page.png?raw=true" width="100%">
 </p>
 
 ### User_Account_Page
 Here, the user can see their details like their Name, Email and Admin Priviledges.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20user%20account%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20user%20account%20page.png?raw=true" width="100%">
 </p>
 
 ### Update_User_Account_Page
 Here, the user can update their account details like username, email and can also reset their password.
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20account%20update%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20account%20update%20page.png?raw=true" width="100%">
 </p>
 
 ### Delete_User_Account_Page
 Here, the user can Delete their account (requires password confirmation)
 <p align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20delete%20account%20page.png?raw=true" width="90%">
+  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20delete%20account%20page.png?raw=true" width="100%">
 </p>
 
 ### Other_Functionalities
