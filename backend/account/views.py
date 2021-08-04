@@ -29,24 +29,27 @@ class UserRegisterView(APIView):
         username = data["username"]
         email = data["email"]
 
-        check_username = User.objects.filter(username=username).count()
-        check_email =  User.objects.filter(email=email).count()
+        if username == "" or email == "":
+            return Response({"detial": "username or email cannot be empty"}, status=status.HTTP_400_BAD_REQUEST)
 
-        if check_username:
-            message = "A user with that username already exist!"
-            return Response({"detail": message}, status=status.HTTP_403_FORBIDDEN)
-        if check_email:
-            message = "A user with that email address already exist!"
-            return Response({"detail": message}, status=status.HTTP_403_FORBIDDEN)
         else:
-            user = User.objects.create(
-                username=username,
-                email=email,
-                password=make_password(data["password"]),
-            )
-            serializer = UserRegisterTokenSerializer(user, many=False)
-            return Response(serializer.data)
+            check_username = User.objects.filter(username=username).count()
+            check_email =  User.objects.filter(email=email).count()
 
+            if check_username:
+                message = "A user with that username already exist!"
+                return Response({"detail": message}, status=status.HTTP_403_FORBIDDEN)
+            if check_email:
+                message = "A user with that email address already exist!"
+                return Response({"detail": message}, status=status.HTTP_403_FORBIDDEN)
+            else:
+                user = User.objects.create(
+                    username=username,
+                    email=email,
+                    password=make_password(data["password"]),
+                )
+                serializer = UserRegisterTokenSerializer(user, many=False)
+                return Response(serializer.data)
 
 # login user (customizing it so that we can see fields like username, email etc as a response 
 # from server, otherwise it will only provide access and refresh token)
