@@ -62,6 +62,8 @@ class ProductDeleteView(APIView):
 
 
 class ProductEditView(APIView):
+    
+    permission_classes = [permissions.IsAdminUser]
 
     def put(self, request, pk):
         data = request.data
