@@ -4,7 +4,10 @@ A FullStack Ecommerce App built with Django and React.
   <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/ecommerce%20%20products%20list%20page.png?raw=true" width="100%">
 </p>
 
-Checkout the site in action here <a href="https://condescending-goldstine-79a4ed.netlify.app/">Deployed App</a>
+Checkout the site in action here <a href="https://condescending-goldstine-79a4ed.netlify.app/">Deployed App</a> (short note below)
+
+(Note: The website can take upto 30 seconds (hosted on Heroku free tier services), as the project has no clients, its just for learning, please refer the source
+code to run locally).
 
 # Table of contents
 - [About_this_App](#About_this_App)
